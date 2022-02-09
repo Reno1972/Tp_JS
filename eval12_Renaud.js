@@ -1,6 +1,5 @@
 do{
     var question=parseInt(prompt("Quel calcul souhaitez-vous faire ?\n - 1 - Addition\n - 2 - Soustraction\n - 3 - Multiplication\n - 4 - Division"));
-    // console.log(question)
 } while(question<1 || question>4);
 
 let a=prompt("Entrez la première valeur :");
@@ -10,21 +9,18 @@ let b=prompt("Entrez la deuxième valeur :");
 b=+b
 
 function addition(){
-    calcul=a+b;
-    return calcul;
+    return a+b;
 }
 function soustraction(){
-    calcul=a-b;1
-    return calcul;
+    return a-b;
 }
 function multibication(){
-    calcul=a*b;
-    return calcul;
+    return a*b;
 }
 function division(){
-    calcul=a/b;
-    return calcul;
+    return a/b;
 }
+
 switch(question){
     case 1:
         alert("Le resultat de l'addition de "+a+"+"+b+" est : "+addition(a,b));
