@@ -35,6 +35,6 @@ switch(question){
         alert("Le résultat de la division "+a+"/"+b+" est : "+division(a,b));
         break;
 default:
-    alert("Voulez-vous recommencer ?")
-
+    alert("Calcul impossible.");
 }
+alert("Calcul terminé, au revoir !");
