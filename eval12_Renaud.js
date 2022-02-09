@@ -1,15 +1,20 @@
-let question=prompt("Quel calcul souhaitez-vous faire ?\n - 1 - Addition\n - 2 - Soustraction\n - 3 - Multiplication\n - 4 - Division");
-question=+question;
+do{
+    var question=parseInt(prompt("Quel calcul souhaitez-vous faire ?\n - 1 - Addition\n - 2 - Soustraction\n - 3 - Multiplication\n - 4 - Division"));
+    // console.log(question)
+} while(question<1 || question>4);
+
 let a=prompt("Entrez la première valeur :");
 a=+a;
+
 let b=prompt("Entrez la deuxième valeur :");
 b=+b
+
 function addition(){
     calcul=a+b;
     return calcul;
 }
 function soustraction(){
-    calcul=a-b;
+    calcul=a-b;1
     return calcul;
 }
 function multibication(){
