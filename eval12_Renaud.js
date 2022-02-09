@@ -1,7 +1,5 @@
 let question=prompt("Quel calcul souhaitez-vous faire ?\n - 1 - Addition\n - 2 - Soustraction\n - 3 - Multiplication\n - 4 - Division");
 question=+question;
-whileif    return question;
-}else throw new Error("Tu ne peut pas faire cette opération");
 let a=prompt("Entrez la première valeur :");
 a=+a;
 let b=prompt("Entrez la deuxième valeur :");
